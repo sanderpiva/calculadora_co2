@@ -1,37 +1,63 @@
-# Projeto: calculadora_co2 -> Em construção...
+# 🌍 EcoTrip - Calculadora de Emissões de CO₂
+
+[![JS](https://img.shields.io/badge/JavaScript-ES6+-yellow)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![API](https://img.shields.io/badge/API-OSRM%20%26%20Nominatim-blue)](https://project-osrm.org/)
 
 ## 📖 Definição
 
-**Calculadora de CO2 - EcoTrip** é um projeto que simula o impacto ambiental de viagens,  
-estimando a emissão de carbono com base em fatores como:
-
-- [distância](ca://s?q=Como_a_distância_afeta_emissões)
-- [meio de transporte](ca://s?q=Impacto_do_meio_de_transporte_nas_emissões)
-- [perfil do trajeto](ca://s?q=Perfil_do_trajeto_e_emissões)
+A **EcoTrip** é uma aplicação web interativa que simula o impacto ambiental de deslocamentos terrestres. O projeto utiliza dados geográficos reais para estimar a pegada de carbono (CO₂), permitindo que o usuário visualize o custo ecológico de suas viagens e tome decisões mais sustentáveis.
 
 ## 🎯 Objetivo
 
-O objetivo é ajudar o usuário a tomar decisões mais [conscientes](ca://s?q=Decisões_conscientes_em_viagens) e [sustentáveis](ca://s?q=Viagens_sustentáveis).
-
-## 📄 Estrutura
-
-### index.html
-- Estrutura geral da aplicação
-
-### css/
-- **style.css** → estilos completos
-
-### js/
-- **routes-data.js** → objeto global com dados de rotas
-- **config.js** → objeto global com constantes de CO₂
-- **calculator.js** → lógica de cálculos (funções globais)
-- **ui.js** → manipulação do DOM (funções globais)
-- **app.js** → inicialização de eventos
-
-### readme
-- Documentação geral do projeto
+O projeto visa transformar dados técnicos ambientais em informações compreensíveis, ajudando o usuário a tomar decisões mais **conscientes** e **sustentáveis** em seus trajetos diários ou viagens de longa distância.
 
 ---
 
-**Autor:** Sander Gustavo Piva
+## 🛠️ Implementações Técnicas de Destaque
 
+O projeto foi construído focando em **segurança de dados** e **reatividade**:
+
+* **Integração API OSRM & Nominatim:** Cálculo de rotas reais baseadas em malha viária, substituindo distâncias estáticas por dados precisos de latitude e longitude.
+* **Interface Reativa (UI/UX):** Implementação de um fluxo de "limpeza de palco". Ao interagir com os campos de busca, os resultados anteriores são ocultados automaticamente via classes CSS (`.hidden`), garantindo que o usuário nunca veja dados inconsistentes.
+* **Validação de Input:** Verificação rigorosa no front-end e na lógica de processamento para impedir o cálculo de dados nulos, negativos ou inconsistentes.
+* **Arquitetura Modular:** Separação clara de responsabilidades entre os arquivos JavaScript (Config, Calculator, UI e App), facilitando a manutenção e futuras expansões.
+
+## 📂 Estrutura do Repositório
+
+* `index.html`: Estrutura semântica e containers da aplicação.
+* `css/style.css`: Estilização moderna e gerenciamento de estados visuais.
+* `js/config.js`: Cérebro da integração com APIs e controle de autofill de distância.
+* `js/calculator.js`: Motor de cálculo ambiental e financeiro (conversão para créditos de carbono).
+* `js/ui.js`: Gerenciador de interface e renderização de componentes dinâmicos.
+* `js/app.js`: Inicializador global e orquestrador de eventos de submissão.
+
+---
+
+## 📸 Demonstração e Resultados
+
+Abaixo, você pode conferir o sistema em operação e acessar a versão funcional.
+
+### Screenshots do Sistema
+
+#### 1. Tela Principal e Busca de Rotas
+> ![Dashboard Principal](INSERIR_URL_DA_FOTO_1_AQUI)
+*Interface limpa com integração de busca automática de cidades.*
+
+#### 2. Processamento e Feedback Visual
+> ![Calculando Rota](INSERIR_URL_DA_FOTO_2_AQUI)
+*Sistema de limpeza de dados e feedback de 'Aguardando Rota' em tempo real.*
+
+#### 3. Resultados e Comparativos
+> ![Resultados Finais](INSERIR_URL_DA_FOTO_3_AQUI)
+*Exibição das emissões em kg de CO₂ e equivalência em Créditos de Carbono.*
+
+### 🔗 Link do Projeto em Operação
+
+Ficou interessado? Teste a aplicação agora mesmo:
+
+🚀 **[ACESSE A CALCULADORA AQUI](INSERIR_LINK_AQUI_PAGES_OU_VERCEL)**
+
+---
+
+**Autor:** Sander Gustavo Piva  
+*Desenvolvedor focado em soluções tecnológicas para sustentabilidade e análise de dados.*
