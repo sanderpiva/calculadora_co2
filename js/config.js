@@ -63,28 +63,31 @@ const CONFIG = {
         const distanceInput = document.getElementById('distance');
         const manualCheckbox = document.getElementById('manual-distance');
         const helperText = distanceInput.nextElementSibling;
-        //
-        const limparDadosAntigos = () => {
-            if (!document.getElementById('manual-distance').checked) {
+        
+        const clean_old_datas = () => {
+        
+            if (!manualCheckbox.checked) {
+            
                 distanceInput.value = ''; 
                 distanceInput.placeholder = "Clique e chame API OSRM";
                 helperText.textContent = '⏳ Aguardando rota...';
                 helperText.style.color = '#3b82f6';
-
-                
-                const secoes = ['results', 'comparison', 'carbon-credits'];
-                secoes.forEach(id => {
-                    const el = document.getElementById(id);
-                    if (el) el.classList.add('hidden');
-                });
                 
             }
+
+            const sections = ['results', 'comparison', 'carbon-credits'];
+            sections.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) {
+                el.classList.add('hidden'); 
+                }
+            });
         };
 
-        originInput.addEventListener('input', limparDadosAntigos);
-        destinationInput.addEventListener('input', limparDadosAntigos);
+        originInput.addEventListener('input', clean_old_datas);
+        destinationInput.addEventListener('input', clean_old_datas);
         
-        //
+        
         const tryFindDistance = async () => {
             
             const origin = originInput.value.trim();
