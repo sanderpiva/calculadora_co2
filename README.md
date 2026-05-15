@@ -55,7 +55,7 @@ Abaixo, você pode conferir o sistema em operação e acessar a versão funciona
 
 Ficou interessado? Teste a aplicação agora mesmo:
 
-🚀 **[ACESSE A CALCULADORA AQUI](INSERIR_LINK_AQUI_PAGES_OU_VERCEL)**
+🚀 **https://sanderpiva.github.io/calculadora_co2/**
 
 ---
 
