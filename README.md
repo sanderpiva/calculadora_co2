@@ -39,6 +39,8 @@ Para ver a **EcoTrip** em ação, assista ao vídeo demonstrativo abaixo:
 
 https://youtu.be/pXgWW9I5wOI
 
+<hr>
+
 ### 🔗 Link da Página Web EcoTrip - Calculadora de Emissões de CO₂
 
 🚀 **[Teste a aplicação aqui](https://sanderpiva.github.io/calculadora_co2/)**
@@ -48,15 +50,28 @@ https://youtu.be/pXgWW9I5wOI
 ### Screenshots do Sistema
 
 #### 1. Tela Principal e Busca de Rotas
-> ![Dashboard Principal](INSERIR_URL_DA_FOTO_1_AQUI)
+<img src="imgs/1.jpg" alt="1">
 *Interface limpa com integração de busca automática de cidades.*
 
-#### 2. Processamento e Feedback Visual
-> ![Calculando Rota](INSERIR_URL_DA_FOTO_2_AQUI)
-*Sistema de limpeza de dados e feedback de 'Aguardando Rota' em tempo real.*
+<hr>
+
+#### 2. Inserção automática (API OSRM) ou manual da distância
+<img src="imgs/3.jpg" alt="3">
+*Sistema permite o uso da API OSRM para obtenção da distância ou inserção manual.*
+
+<hr>
 
 #### 3. Resultados e Comparativos
-> ![Resultados Finais](INSERIR_URL_DA_FOTO_3_AQUI)
+
+<hr>
+
+<img src="imgs/6.jpg" alt="6">
+<hr>
+<img src="imgs/7.jpg" alt="7">
+<hr>
+<img src="imgs/8.jpg" alt="8">
+<hr>
+<img src="imgs/9.jpg" alt="9">
 *Exibição das emissões em kg de CO₂ e equivalência em Créditos de Carbono.*
 
 ---
