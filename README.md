@@ -35,7 +35,15 @@ O projeto foi construído focando em **segurança de dados** e **reatividade**:
 
 ## 📸 Demonstração e Resultados
 
-Abaixo, você pode conferir o sistema em operação e acessar a versão funcional.
+Para ver a **EcoTrip** em ação, assista ao vídeo demonstrativo abaixo:
+
+https://youtu.be/pXgWW9I5wOI
+
+### 🔗 Link da Página Web EcoTrip - Calculadora de Emissões de CO₂
+
+🚀 **[Teste a aplicação aqui](https://sanderpiva.github.io/calculadora_co2/)**
+
+---
 
 ### Screenshots do Sistema
 
@@ -50,12 +58,6 @@ Abaixo, você pode conferir o sistema em operação e acessar a versão funciona
 #### 3. Resultados e Comparativos
 > ![Resultados Finais](INSERIR_URL_DA_FOTO_3_AQUI)
 *Exibição das emissões em kg de CO₂ e equivalência em Créditos de Carbono.*
-
-### 🔗 Link do Projeto em Operação
-
-Ficou interessado? Teste a aplicação agora mesmo:
-
-🚀 **https://sanderpiva.github.io/calculadora_co2/**
 
 ---
 
